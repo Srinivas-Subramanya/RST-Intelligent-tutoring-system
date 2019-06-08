@@ -1,0 +1,43 @@
+import("productionrules.nools");
+import("RSTskill_G4.nools");
+
+global probname = "Problem1";
+
+
+global relation1 = {title: "Relation 1", name: "Joint", 
+definition: "No particular relation exist between two sentences.", 
+exampleS: "N: The brooks in the forest are delightful to see in spring.", 
+exampleN: "N: It is also uncommon to see bears in spring.", 
+conjunctionPhrase: "'By the way..'", group: 'No Relation'};
+
+
+global relation2 = {title: "Relation 2", name: "Background", 
+definition: "S helps readers better an element about N, Without S, reader won't fully understand N.", 
+exampleS: "S:  Until 1984, Burkina Faso was called Obervolta.", 
+exampleN: "N: According to an EMNID poll, many Europeans today believe that they are two different countries.", 
+conjunctionPhrase: "'What you need to know about this is…'", group: 'Progressive'};
+
+global relation3 = {title: "Relation 3", name: "Evaluation", 
+definition: "S assesses N based on what is presented in N or logical deduction from N.", 
+exampleS: "S:   They are going to be very warm in winter.", 
+exampleN: "N:   These sweaters have supreme wool inside.", 
+conjunctionPhrase: "'People have reason to say...', 'It is logical to say...'", group: 'Progressive'};
+
+global options1 ='---,Progressive,Supplementing,Repeating,Contrast,Conjunct,No Relation';
+
+global options2 ='---,By the way...,What you need to know about this is…,People have reason to say.../It is logical to say...';
+
+global options4 ='---,Joint,Background,Evaluation';
+global part1answer = 'No Relation'; 
+
+global part2answer = 'By the way...'; 
+
+global part4answer = 'Joint'; 
+
+global myskill = 'determine joint';
+
+global part3answer=2;
+
+global Sentence1 = "A: The armchair is comfortable.";
+
+global Sentence2 = "B: This house is facing north.";

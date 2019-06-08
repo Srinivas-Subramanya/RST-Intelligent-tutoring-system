@@ -1,0 +1,44 @@
+import("productionrules.nools");
+import("RSTskill_G1.nools");
+
+global probname = "Problem1";
+
+
+global relation1 = {title: "Relation 1", name: "Sequence", 
+definition: "There is a succession relationship in time for the nuclei(two equally important sentences).", 
+exampleS: "N: I would first peel the orange.", 
+exampleN: "N: Then put them in the blender.", 
+conjunctionPhrase: "After that.../before that/This is followed by...", group: 'Conjunct'};
+
+
+global relation2 = {title: "Relation 2", name: "Motivation", 
+definition: "S helps readers better an element about N, Without S, reader won't fully understand N.", 
+exampleS: "S:    That red dress seems your style.", 
+exampleN: "N:    It would make sense that you buy it.", 
+conjunctionPhrase: "In this case/maybe you can.../In this case/why don't you..? ", group: 'Progressive'};
+
+global relation3 = {title: "Relation 3", name: "Restatement", 
+definition: "S contains the same information as N.", 
+exampleS: "A: The blue car is my type of car.", 
+exampleN: "B: I really like the blue car.", 
+conjunctionPhrase: " This is basically saying.../In other words…", group: 'repeating'};
+
+global options1 ='---,Progressive,Supplementing,Repeating,Contrast,Conjunct,No Relation';
+
+global options2 ='---,After that.../before that/This is followed by...,In this case/maybe you can.../In this case/why dont you..,This is basically saying.../In other words…';
+
+global options4 ='---,sequence,motivation,restatement';
+
+global part1answer = 'Progressive'; 
+
+global part2answer = 'After that.../before that/This is followed by...';
+
+global part4answer = 'sequence'; 
+
+global myskill = 'determine sequence';
+
+global part3answer=2;
+
+global Sentence1 = "A: The girl went into the shop.";
+
+global Sentence2 = "B: She then bought two big cartons of milk.";

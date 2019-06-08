@@ -1,0 +1,44 @@
+import("productionrules.nools");
+import("RSTskill_G3.nools");
+
+global probname = "Problem1";
+
+
+global relation1 = {title: "Relation 1", name: "Conjunction", 
+definition: "The two sentences are joined to form a unit that serve a common purpose", 
+exampleS: "N: This didn’t make me like the story any less", 
+exampleN: "N: nor did I find it hard to follow.", 
+conjunctionPhrase: "'Another thing about this is...'", group: 'Conjunct'};
+
+
+global relation2 = {title: "Relation 2", name: "Summary", 
+definition: "S is a shorter restatement of N.", 
+exampleS: "S: This shops sells all kinds of good food.", 
+exampleN: "N: This shops sells yummy cakse, quality vegetables and fruits as well as fresh diary and meat .", 
+conjunctionPhrase: "'To summarize', 'In conclusion', 'In short', 'In a nutshell'", group: 'Repeating'};
+
+global relation3 = {title: "Relation 3", name: "Evidence", 
+definition: "Readers' comprehending S increases their belief in N.", 
+exampleS: "N: Chinese students may be more spoiled with doing less housework in the childhood.", 
+exampleN: "S: According to statistics, the average time that Chinese kids doing housework is only 0.2 hr/ week, while American kids spend 0.8 hr/week on housework.", 
+conjunctionPhrase: "'One evidence for this is...' ,'What can effectively support this is...','This is backed up by the fact that...'", group: 'Supplementing'};
+
+global options1 ='---,Progressive,Supplementing,Repeating,Contrast,Conjunct,No Relation';
+
+global options2 ='---,Another thing about this is...,In conclusion.../In short.../In a nutshell.../To summarize,One evidence for this is.../What can effectively support this is.../This is backed up by the fact that...';
+
+global options4 ='---,Conjunction,Summary,Evidence';
+
+global part1answer = 'Repeating'; 
+
+global part2answer = 'In conclusion.../In short.../In a nutshell.../To summarize'; 
+
+global part4answer = 'Summary'; 
+
+global myskill = 'determine summary';
+
+global part3answer=1;
+
+global Sentence1 = "A: Joe does not exercise, eats a lot of junk food, and he also stays up late at night playing computer games.";
+
+global Sentence2 = "B: Joe's lifestyle is not healthy.";

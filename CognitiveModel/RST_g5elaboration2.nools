@@ -1,0 +1,44 @@
+import("productionrules.nools");
+import("RSTskill_G5.nools");
+
+global probname = "Problem1";
+
+
+global relation1 = {title: "Relation 1", name: "Preparation", 
+definition: "S precedes N and S make readers more ready, interested in reading N.", 
+exampleS: "S:   (a title): Bouquets in a basket - with living flowers", 
+exampleN: "(the body of the article)", 
+conjunctionPhrase: "This prepares you to know...", group: "Progressive"};
+
+
+global relation2 = {title: "Relation 2", name: "Elaboration", 
+definition: "S provides N with additional details.", 
+exampleS: "N:   Today is really cold.", 
+exampleN: "S:    It is less than 30 degrees.", 
+conjunctionPhrase: "'Specifically...', 'To be exact...', 'To be specific...', 'Furthermore...'", group: 'Supplementing'};
+
+global relation3 = {title: "Relation 3", name: "Interpretation", 
+definition: "A contains the writer’s personal opinion on B, which involve content outside N and cannot be deducted from B.", 
+exampleS: "A: It is snowing outside.", 
+exampleN: "B: It is a rare case to be snowing in April.", 
+conjunctionPhrase: " [Somebody]’s personal opinion is...,  [Somebody] feels that...", group: 'Progressive'};
+
+global options1 ='---,Progressive,Supplementing,Repeating,Contrast,Conjunct,No Relation';
+
+global options2 ='---,Specifically.../To be exact.../To be specific.../Furthermore,This prepares you to know...,[Somebody] feels that...;
+
+global options4 ='---,Preparation,Elaboration,Interpretation';
+
+global part1answer = 'Supplementing'; 
+
+global part2answer = 'Specifically.../To be exact.../To be specific.../Furthermore'; 
+
+global part4answer = 'Elaboration'; 
+
+global myskill = 'determine elaboration';
+
+global part3answer=1;
+
+global Sentence1 = "A: The economics was going down in America during the depression.";
+
+global Sentence2 = "B: The depression was affecting the job market espeically seriously.";

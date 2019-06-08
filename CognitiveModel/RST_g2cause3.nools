@@ -1,0 +1,44 @@
+import("productionrules.nools");
+import("RSTskill_G2.nools");
+
+global probname = "Problem1";
+
+
+global relation1 = {title: "Relation 1", name: "condition", 
+definition: "Realization of N depends on realization of S.", 
+exampleS: "S: If you are over  21,", 
+exampleN: "N: You can drink alcohol in America.", 
+conjunctionPhrase: "Condition to achieve this is.../if…", group: 'Progressive'};
+
+
+global relation2 = {title: "Relation 2", name: "contrast", 
+definition: "Two sentence are put into comparison, they are both nucleus (equally important).", 
+exampleS: "N: Animals can heal, ", 
+exampleN: "N: while trees can hardly recover from destruction made to it.", 
+conjunctionPhrase: "But...On the other hand..", group: 'Contrast'};
+
+global relation3 = {title: "Relation 3", name: "cause", 
+definition: "S is the cause of N.", 
+exampleS: "S: He ate too much cheese and fell in love with drinking soda after coming here.", 
+exampleN: "N: He gained 10 pounds in 1 month.", 
+conjunctionPhrase: "Because.../Reason for this is…", group: 'Progressive'};
+
+global options1 ='---,Progressive,Supplementing,Repeating,Contrast,Conjunct,No Relation';
+
+global options2 ='---,Condition to achieve this is.../if…,But...On the other hand..,Because.../Reason for this is…/Therefore.../As a result...';
+
+global options4 ='---,condition,contrast,cause';
+
+global part1answer = 'Progressive'; 
+
+global part2answer = 'Because.../Reason for this is…/Therefore.../As a result...';
+
+global part4answer =  　'cause'; 
+
+global myskill = 'determine cause';
+
+global part3answer=1;
+
+global Sentence1 = "A:The noise pollution his house is intolerable.";
+
+global Sentence2 = "B: His hearing dropped.";

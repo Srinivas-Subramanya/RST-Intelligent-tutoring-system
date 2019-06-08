@@ -1,0 +1,47 @@
+//  these counts ignore that each  problem has its own count ... 
+
+global skill_definitions = [
+	{
+		ruleName: "Step1",
+		skillName: "a",
+		category: "rst",
+		opportunities: 1,
+		label: "determine group"
+	},
+	{
+		ruleName: "Step2",
+		skillName: "b",
+		category: "rst",
+		opportunities: 1,
+		label: "determine conjunction"
+	},
+	{
+		ruleName: "Step3",
+		skillName: "c",
+		category: "rst",
+		opportunities: 1,
+		label: "determine type"
+	},
+	{
+		ruleName: "Elaboration",
+		skillName: "e",
+		category: "rst",
+		opportunities: 1,
+		label:"determine elaboration"
+	},
+	{
+		ruleName: "Interpretation",
+		skillName: "f",
+		category: "rst",
+		opportunities: 1,
+		label:"determine interpretation"
+	},
+	{
+		ruleName: "Preparation",
+		skillName: "g",
+		category: "rst",
+		opportunities: 1,
+		label:"determine preparation"
+	}
+
+];

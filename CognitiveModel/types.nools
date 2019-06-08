@@ -1,0 +1,68 @@
+// This file contains some possibly incomplete fact type definitions for the
+// Practical RST tutor
+//
+// The file contains all types that are needed, so no need to create new ones,
+// but the types that are provided may not have all the slots that are necessary.
+//
+
+define problem{
+	state:null,
+	ie1index:1,
+	ie2index:2,
+	ie4index:4,
+	constructor: function(a){
+		this.state=a;
+	}
+}
+define part3PotentialAnswer{
+	value:null,
+	type:null,
+	constructor: function(a,b){
+		this.value=a;
+		this.type=b;
+	}
+}
+
+
+define interfaceElement {
+	name: null,
+	value: null,
+	whichPart: null,
+	constructor: function(n, v , w) {
+		this.name = n;
+		this.value = v;
+		this.whichPart = w;
+	}
+}
+
+define StudentValues {
+	selection: null,
+	action: null,
+	input: null,
+	constructor: function(s, a, i) {
+		this.selection = s;
+		this.action = a;
+		this.input = i;
+	}
+}
+
+define TPA {
+	selection: null,
+	action: null,
+	input: null,
+	constructor: function(s, a, i) {
+		this.selection = s;
+		this.action = a;
+		this.input = i;
+	}
+}
+
+// Assert a Hint fact for each hint you want in a step.
+define Hint {
+	precedence: 0,
+	msg: "",
+	constructor: function(m, optPrecedence) {
+		this.msg = m;
+		this.precedence = optPrecedence || 0;
+	}
+}
